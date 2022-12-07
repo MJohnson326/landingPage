@@ -1,6 +1,10 @@
+*{
+    margin:0;
+    padding:0
+}
 .top {
     background-color: #1f2937;
-    
+    font-family:'Roboto',monospace,sans-serif
 }
 
 .logo {
@@ -16,7 +20,7 @@
 
 ul {
     display: flex;
-    gap: 16px
+    gap: 24px
 }
 
 li {
@@ -31,11 +35,5 @@ a {
 
 .hero{
     display:flex;
-    
-}
-
-
-img{
-    width:500px;
-    height:200px;
+    margin-top:48px;  
 }
