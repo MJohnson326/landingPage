@@ -4,13 +4,13 @@
     font-family:'Roboto', sans-serif
 }
 
-.top {
-    background-color: #1f2937;
-    ;
-}
+   
 .container{
-    ;
-    justify-content:space-between
+    padding:48px 10% 96px 10%;
+    background-color: #1f2937;
+    
+   
+    
 }
 
 .logo {
@@ -19,18 +19,26 @@
 }
 
 .links-and-logo { 
+    justify-content:space-between;
+    display:flex;
+    background-color: #1f2937; 
+    align-items:center;
+    margin-bottom:96px;
     
-    
+  
 }
 
-
 ul {
-    gap: 24px
+    gap: 24px;
+    display:flex;
+   
+   
 }
 
 li {
     list-style-type: none;
     font-size: 18px;
+    
 }
 
 a {
@@ -38,12 +46,19 @@ a {
     color: #e5e7eb
 }
 
+
 .hero{
+    display:flex;
+    background-color: #1f2937;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-top:48px;
     
 }
-
-.hero-text{
-    
+.button-and-text{
+    margin-right:48px;
+    flex-basis:35%;
+   
 }
 
 .hero-main-text{
@@ -54,7 +69,8 @@ a {
 
 .hero-secondary-text{
     font-size:18px;
-    color:#e5e7eb
+    color:#e5e7eb;
+
 }
 
 button{
@@ -64,5 +80,13 @@ button{
     border-radius:5px;
     font-weight:bold;
     text-align:center;
-    border-style:none
+    border-style:none;
+    margin-top:24px
 }
+img{
+    flex-basis:65%;
+    height:300px
+}
+
+
+   
