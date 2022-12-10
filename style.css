@@ -88,5 +88,18 @@ img{
     height:300px
 }
 
+.information h1{
+    justify-content:center;
+    display:flex;
+   
+    font-size:36px;
+    font-weight:900px;
+    
+}
+.information{
+    color:#1f2937;
+    background-color:#e5e7eb;
+    padding:48px 10% 96px 10%
+}
 
    
