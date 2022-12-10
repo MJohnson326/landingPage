@@ -83,23 +83,35 @@ button{
     border-style:none;
     margin-top:24px
 }
-img{
-    flex-basis:65%;
+.hero img{
+    flex-basis:55%;
     height:300px
 }
 
 .information h1{
-    justify-content:center;
-    display:flex;
-   
+    
     font-size:36px;
     font-weight:900px;
+    margin-bottom:32px;
+    
     
 }
 .information{
     color:#1f2937;
     background-color:#e5e7eb;
-    padding:48px 10% 96px 10%
+    padding:48px 10% 96px 10%;
+    display:flex;
+    justify-content:center
+}
+.information p{
+    font-size:12px
 }
 
-   
+.images{
+    display:flex;
+    gap:16px;
+    width:100px;
+    height:100px;
+    justify-content:space-between
+    
+}
