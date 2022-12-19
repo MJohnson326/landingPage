@@ -124,3 +124,25 @@ button{
     max-width:125px;
     text-align:center
 }
+
+.quote-section{
+    background-color:#ced0da;
+    color:#1f2937;
+     padding:96px 20%;
+     
+}
+
+.quote{
+    font-style:italic;
+    font-weight:lighter;
+    text-align:justify;
+    font-size:36px;  
+    
+}
+
+.thor{
+    font-size:24px;
+    font-weight:900px;
+    text-align:right;
+    margin-top:52px
+}
