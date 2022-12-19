@@ -100,8 +100,8 @@ button{
     color:#1f2937;
     background-color:#e5e7eb;
     padding:48px 10% 96px 10%;
-    display:flex;
-    justify-content:center
+   
+    text-align:center;
 }
 .information p{
     font-size:12px
@@ -109,9 +109,18 @@ button{
 
 .images{
     display:flex;
-    gap:16px;
+    gap:100px;
+    justify-content:center
+    
+}
+.information img{
     width:100px;
     height:100px;
-    justify-content:space-between
-    
+    border:solid blue 1px;
+    border-radius:5px
+}
+
+.information p{
+    max-width:125px;
+    text-align:center
 }
