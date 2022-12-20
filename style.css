@@ -1,16 +1,13 @@
-*{
-    margin:0;
-    padding:0;
-    font-family:'Roboto', sans-serif
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif
 }
 
-   
-.container{
-    padding:48px 10% 96px 10%;
+
+.container {
+    padding: 48px 10% 96px 10%;
     background-color: #1f2937;
-    
-   
-    
 }
 
 .logo {
@@ -18,27 +15,27 @@
     color: #f9faf8
 }
 
-.links-and-logo { 
-    justify-content:space-between;
-    display:flex;
-    background-color: #1f2937; 
-    align-items:center;
-    margin-bottom:96px;
-    
-  
+.links-and-logo {
+    justify-content: space-between;
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    margin-bottom: 96px;
+
+
 }
 
 ul {
     gap: 24px;
-    display:flex;
-   
-   
+    display: flex;
+
+
 }
 
 li {
     list-style-type: none;
     font-size: 18px;
-    
+
 }
 
 a {
@@ -47,102 +44,148 @@ a {
 }
 
 
-.hero{
-    display:flex;
+.hero {
+    display: flex;
     background-color: #1f2937;
-    justify-content:space-between;
-    align-items:flex-start;
-    margin-top:48px;
-    
-}
-.button-and-text{
-    margin-right:48px;
-    flex-basis:35%;
-   
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 48px;
+
 }
 
-.hero-main-text{
-    font-size:48px;
+.button-and-text {
+    margin-right: 48px;
+    flex-basis: 35%;
+
+}
+
+.hero-main-text {
+    font-size: 48px;
     font-weight: 900;
-    color:#f9faf8
+    color: #f9faf8
 }
 
-.hero-secondary-text{
-    font-size:18px;
-    color:#e5e7eb;
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 24px
+}
+
+button {
+    background-color: #3882f6;
+    padding: 8px 24px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    border-style: none;
+    font-size: 18px
+}
+
+.hero img {
+    flex-basis: 55%;
+    height: 300px
+}
+
+.information h1 {
+
+    font-size: 36px;
+    font-weight: 900px;
+    margin-bottom: 32px;
+
 
 }
 
-button{
-    background-color:#3882f6;
-    padding:8px 24px;
-    color:#fff;
-    border-radius:5px;
-    font-weight:bold;
-    text-align:center;
-    border-style:none;
-    margin-top:24px
-}
-.hero img{
-    flex-basis:55%;
-    height:300px
+.information {
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 48px 10% 96px 10%;
+
+    text-align: center;
 }
 
-.information h1{
-    
-    font-size:36px;
-    font-weight:900px;
-    margin-bottom:32px;
-    
-    
-}
-.information{
-    color:#1f2937;
-    background-color:#e5e7eb;
-    padding:48px 10% 96px 10%;
-   
-    text-align:center;
-}
-.information p{
-    font-size:12px
+.information p {
+    font-size: 12px
 }
 
-.images{
-    display:flex;
-    gap:100px;
-    justify-content:center
-    
-}
-.information img{
-    width:100px;
-    height:100px;
-    border:solid blue 1px;
-    border-radius:5px
+.images {
+    display: flex;
+    gap: 100px;
+    justify-content: center
 }
 
-.information p{
-    max-width:125px;
-    text-align:center
+.information img {
+    width: 100px;
+    height: 100px;
+    border: solid blue 1px;
+    border-radius: 5px
 }
 
-.quote-section{
-    background-color:#ced0da;
-    color:#1f2937;
-     padding:96px 20%;
-     
+.information p {
+    max-width: 125px;
+    text-align: center
 }
 
-.quote{
-    font-style:italic;
-    font-weight:lighter;
-    text-align:justify;
-    font-size:36px;  
-    
+.quote-section {
+    background-color: #ced0da;
+    color: #1f2937;
+    padding: 96px 20%;
+
 }
 
-.thor{
-    font-size:24px;
-    font-weight:900px;
-    text-align:right;
-    margin-top:52px
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    text-align: justify;
+    font-size: 36px;
+
+}
+
+.thor {
+    font-size: 24px;
+    font-weight: 900px;
+    text-align: right;
+    margin-top: 52px
+}
+
+.call {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 96px 10%;
+    padding: 50px 200px;
+    color: #fff;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up {
+    font-size: 18px;
+    font-weight: normal;
+
+}
+
+.call button {
+    border: solid #fff 1px;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #fff;
+    text-align: center;
+    padding: 20px
 }
